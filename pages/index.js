@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 }))
 
-const images = new Array(11).fill(0)
+const images = new Array(12).fill(0)
 
 const ElectronicMenu = () => {
 	const classes = useStyles()
