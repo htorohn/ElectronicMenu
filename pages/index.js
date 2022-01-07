@@ -67,7 +67,7 @@ const ElectronicMenu = () => {
 						>
 							<img
 								alt={`Kfes de Barro Menu Page ${index + 1}`}
-								src={`/assets/${index + 1}.jpg`}
+								src={`/assets/${index + 1}.png`}
 								className={classes.menuImage}
 							/>
 						</Grid>
