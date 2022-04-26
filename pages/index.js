@@ -1,8 +1,7 @@
-import React from 'react'
-import Head from 'next/head'
 import Grid from '@material-ui/core/Grid'
-import Typography from '@material-ui/core/Typography'
 import { makeStyles, useTheme } from '@material-ui/styles'
+import Head from 'next/head'
+import React from 'react'
 
 const useStyles = makeStyles((theme) => ({
 	imagesContainer: {
@@ -67,7 +66,7 @@ const ElectronicMenu = () => {
 						>
 							<img
 								alt={`Kfes de Barro Menu Page ${index + 1}`}
-								src={`/assets/${index + 1}.png`}
+								src={`/assets/${index + 1}.jpg`}
 								className={classes.menuImage}
 							/>
 						</Grid>
